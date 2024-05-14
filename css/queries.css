@@ -1,0 +1,155 @@
+@media (max-width: 100em) {
+  .heading-cta {
+    font-size: 2.4rem;
+  }
+
+  .cta-btn:link,
+  .cta-btn:visited {
+    max-width: 70%;
+    padding: 2.4rem 4.8rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 91em) {
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .heading-text-box {
+    padding: 0 3.2rem;
+  }
+}
+
+@media (max-width: 81em) {
+  .section-features {
+    padding: 9.6rem 3.2rem 12.8rem 3.2rem;
+    max-width: 130rem;
+    padding-bottom: 12.8rem;
+  }
+  .cta {
+    width: 60rem;
+    padding: 4.8rem 6.4rem;
+    bottom: -125%;
+  }
+  .footer {
+    padding: 0 1.6rem;
+  }
+  .footer-grid {
+    gap: 4.8rem;
+  }
+}
+
+@media (max-width: 68em) {
+  html {
+    font-size: 56.25%;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 6.4rem;
+  }
+  .heading-text-box {
+    text-align: center;
+  }
+  .footer-grid {
+    gap: 0;
+  }
+}
+
+@media (max-width: 57em) {
+  .footer {
+    padding-top: 12.8rem;
+    justify-content: center;
+  }
+  .footer-logo {
+    width: 50%;
+  }
+  .logo-contact-container {
+    gap: 3.2rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .logo-contact {
+    margin-bottom: 6.4rem;
+  }
+  .nav-col li:last-child {
+    margin-bottom: 3.2rem;
+  }
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    padding: 3.2rem;
+  }
+}
+
+@media (max-width: 46em) {
+  .header {
+    padding: 4.8rem;
+  }
+  .section-hero {
+    padding-bottom: 4.8rem;
+  }
+  .header-logo {
+    width: 35%;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+  .section-features {
+    padding: 6.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .card {
+    text-align: center;
+    padding: 4.8rem;
+    gap: 6.4rem;
+  }
+  .card img {
+    max-width: 70%;
+    justify-self: center;
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .card img:nth-child(1) {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 38em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 30em) {
+  html {
+    font-size: 43.75%;
+  }
+  .hero-btn:link,
+  .hero-btn:visited {
+    padding: 1.2rem 3.2rem;
+  }
+  .cta {
+    max-width: 50rem;
+    padding: 3.2rem 4.8rem;
+    bottom: -110%;
+  }
+  .btn-header:link,
+  .btn-header:visited {
+    font-size: 1.6rem;
+    padding: 1.2rem 3.2rem;
+  }
+}
+
+/***************************/
+/* BELOW 304px (Smaller phones) */
+/**************************/
+
+@media (max-width: 19em) {
+  html {
+    font-size: 37.5%;
+  }
+}

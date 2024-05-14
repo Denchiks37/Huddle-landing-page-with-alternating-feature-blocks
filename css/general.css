@@ -1,0 +1,115 @@
+/* 
+
+--- 01 TYPOGRAPHY SYSTEM
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+Default: 400
+Semi-bold: 600
+Bold: 700
+
+- Line heights:
+Default: 1
+
+- Letter spacing:
+
+
+--- 02 COLORS
+
+- Primary: 
+hsl(322, 100%, 66%)
+
+
+- Neutral:
+hsl(193, 100%, 96%)
+hsl(192, 100%, 9%)
+hsl(208, 11%, 55%)
+
+--- 05 SHADOWS
+
+
+
+--- 06 BORDER-RADIUS
+
+
+
+--- 07 WHITESPACE
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: hsl(192, 100%, 9%);
+}
+
+/***************************/
+/* GENERAL, REUSABLE COMPONENTS */
+/**************************/
+
+.bg {
+  background: linear-gradient(
+      rgba(235, 251, 255, 0.55),
+      rgba(235, 251, 255, 0.55)
+    ),
+    url(../images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.heading-primary,
+.heading-secondary {
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  line-height: 1.5;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  margin-bottom: 2.4rem;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 80%;
+}

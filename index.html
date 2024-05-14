@@ -11,6 +11,14 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/queries.css" />
@@ -18,10 +26,116 @@
     <title>
       Frontend Mentor | Huddle landing page with alternating feature blocks
     </title>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-  </body>
-</html>
+    <div class="bg">
+      <header class="header">
+        <img src="images/logo.svg" alt="Huddle logo" class="header-logo" />
+        <a href="#" class="btn-header btn">Try It Free</a>
+      </header>
+      <main>
+        <section class="section-hero">
+          <div class="container hero-grid">
+            <div class="heading-text-box">
+              <h1 class="heading-primary">
+                Build The Community Your Fans Will Love
+              </h1>
+              <p class="hero-text">
+                Huddle re-imagines the way we build communities. You have a voice,
+                but so does your audience. Create connections with your users as
+                you engage in genuine discussion.
+              </p>
+              <a href="#" class="hero-btn btn">Get Started For Free</a>
+            </div>
+            <img
+            class="hero-image"
+            src="images/illustration-mockups.svg"
+            alt="Illustration mockups image"
+            />
+          </div>
+        </div>
+        </section>
+        <section class="container section-features">
+          <div class="card grid grid--2-cols">
+            <div class="card-text-box">
+              <h2 class="heading-secondary">Grow Together</h2>
+              <p class="card-text">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+            </div>
+            <img src="images/illustration-grow-together.svg" alt="">
+          </div>
+          <div class="card grid grid--2-cols">
+            <img src="images/illustration-flowing-conversation.svg" alt="">
+            <div class="card-text-box">
+              <h2 class="heading-secondary">Flowing Conversations</h2>
+              <p class="card-text">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+            </div>
+          </div>
+          <div class="card grid grid--2-cols">
+            <div class="card-text-box">
+              <h2 class="heading-secondary">Your Users</h2>
+              <p class="card-text">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+            </div>
+            <img src="images/illustration-your-users.svg" alt="">
+          </div>
+        </section>
+        <section class="section-cta">
+          <div class="cta">
+            <h2 class="heading-cta">Ready To Build Your Community?</h2>
+            <a href="#" class="cta-btn btn">Get Started For Free</a>
+          </div>
+        </section>
+      <footer class="footer">
+        <div class="logo-contact-container">
+          <img class="footer-logo" src="images/logo.svg" alt="Huddle logo">
+          <div class="grid footer-grid">
+            <div class="logo-contact">
+              <div class="address">
+                <img class="contact-icon" src="images/icon-location.svg" alt="location icon">
+                <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua</p>
+              </div>
+              <div class="phone-number">
+                <img class="contact-icon" src="images/icon-phone.svg" alt="phone icon">
+                <a class="footer-link" href="tel:+1-543-123-4567">+1-543-123-4567</a
+                  >
+                </div>
+                <div class="email">
+                  <img class="contact-icon" src="images/icon-email.svg" alt="email icon">
+                  <a class="footer-link" href="mailto:example@huddle.com"
+                  >example@huddle.com</a
+                  >
+                </div>
+              </div>
+          
+            <div class="nav-col">
+              <ul>
+                <li><a href="#" class="footer-link">About Us</a></li>
+                <li><a href="#" class="footer-link">What We Do</a></li>
+                <li><a href="#" class="footer-link">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="nav-col">
+              <ul>
+                <li><a href="#" class="footer-link">Career</a></li>
+                <li><a href="#" class="footer-link">Blog</a></li>
+                <li><a href="#" class="footer-link">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="social-links">
+              <div>
+                <a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a>
+              </div>
+              <div class="copyright"><p class="copy-text">&copy; Copyright 2018 Huddle. All rights reserved.</p></div>
+            </div>
+          </div>
+          </div>
+        </main>
+      </footer>
+    </body>
+    </html>
+    
